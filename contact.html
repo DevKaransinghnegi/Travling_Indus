@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>content</title>
+  <link rel="stylesheet" href="contact.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tour.html">Tour</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <div class="menu-toggle" id="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+  <!-- Background Video -->
+<video autoplay muted loop playsinline id="bg-video">
+  <source src="v2.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+<section class="contact-section">
+  <div class="contact-box">
+    <h2>Contact Us</h2>
+    <p>We'd love to hear from you. Reach out using the form or details below.</p>
+
+    <div class="contact-details">
+      <p><strong>Phone:</strong> +91 98765 43210</p>
+      <p><strong>Email:</strong> info@indiatours.com</p>
+      <p><strong>Address:</strong> New Delhi, India</p>
+    </div>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <input type="text" placeholder="Subject" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+<footer class="tour-footer">
+  <div class="footer-container">
+    <div class="footer-section about">
+      <h2>About TravelIndia</h2>
+      <p>Explore the diverse landscapes and cultures of India with our curated tour packages.</p>
+    </div>
+    <div class="footer-section links">
+      <h2>Quick Links</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tour.html">Tours</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section social">
+      <h2>Follow Us</h2>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+    <div class="footer-section newsletter">
+      <h2>Newsletter</h2>
+      <form action="#">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2025 TravelIndia. All rights reserved.
+  </div>
+</footer>
+  <script src="contact.js"></script>
+</body>
+</html>
